@@ -1,5 +1,6 @@
 
 const homeLocators = {
+    url: "https://tristenc.vercel.app/",
     homePage: "//div[@class='home-page']",
 
     // Top Navigation elements
@@ -15,8 +16,8 @@ const homeLocators = {
 
     // Labels
     labels: {
-        introductionLabel: 'h1[@class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white"]',
-    introductionText: 'p[@class="max-w-[700px] text-white/80 md:text-xl"]',
+        introductionLabel: '//h1[@class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white"]',
+    introductionText: '//p[@class="max-w-[700px] text-white/80 md:text-xl"]',
     },
 
     // Buttons
