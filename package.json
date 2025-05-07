@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-cypress",
+  "version": "1.0.0",
+  "description": "Cypress automation testing project using POM",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+} 
