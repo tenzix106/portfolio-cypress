@@ -1,4 +1,7 @@
 const aboutLocators = {
+
+    url: 'https://tristenc.vercel.app/#about',
+
     label: {
         aboutTitle: '//h2[@class="text-3xl font-bold tracking-tighter sm:text-4xl text-navy"]',
         description: '(//p[@class="max-w-[600px] text-navy md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"])[1]',
@@ -15,7 +18,23 @@ const aboutLocators = {
         frontendTitle: '(//div[@role="dialog"]//h3)[1]',
         backendTitle: '(//div[@role="dialog"]//h3)[2]',
         mobileTitle: '(//div[@role="dialog"]//h3)[3]',
+        testingTitle: '(//div[@role="dialog"]//h3)[4]',
+        othersTitle: '(//div[@role="dialog"]//h3)[5]',
 
+        icon: {
+            javascript: '//div[@role="dialog"]//img[@alt="JavaScript"]',
+            typescript: '//div[@role="dialog"]//img[@alt="TypeScript"]',
+            nextjs: '//div[@role="dialog"]//img[@alt="Next.js"]',
+            html: '//div[@role="dialog"]//img[@alt="HTML"]',
+            css: '//div[@role="dialog"]//img[@alt="CSS"]',
+            tailwind: '//div[@role="dialog"]//img[@alt="Tailwind"]',
+            python: '//div[@role="dialog"]//img[@alt="Python"]',
+            firebase: '//div[@role="dialog"]//img[@alt="Firebase"]',
+            flutter: '//div[@role="dialog"]//img[@alt="Flutter"]',
+            dart: '//div[@role="dialog"]//img[@alt="Dart"]',
+            cypresS: '//div[@role="dialog"]//img[@alt="Cypress"]',
+            cpp: '//div[@role="dialog"]//img[@alt="C++"]',
+        },
     },
     skillConveyer: '//div[@class="relative h-24"]',
 }
